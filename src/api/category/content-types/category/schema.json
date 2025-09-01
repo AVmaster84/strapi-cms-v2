@@ -37,21 +37,6 @@
         }
       }
     },
-    "categoryImage": {
-      "type": "media",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "categoryVideo": {
       "type": "customField",
       "pluginOptions": {
@@ -69,6 +54,15 @@
         }
       },
       "customField": "plugin::oembed.oembed"
+    },
+    "categoryImg": {
+      "type": "customField",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "customField": "plugin::cloudinary-media-library.cloudinary"
     }
   }
 }

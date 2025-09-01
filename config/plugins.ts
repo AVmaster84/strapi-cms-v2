@@ -1,4 +1,4 @@
-export default ({ env }) => ({
+export default () => ({
 
   'cloudinary-media-library': {
     enabled: true,
