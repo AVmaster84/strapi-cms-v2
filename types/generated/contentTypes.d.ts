@@ -389,13 +389,6 @@ export interface ApiBrandBrand extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
-    brandLogo: Schema.Attribute.String &
-      Schema.Attribute.CustomField<'plugin::cloudinary-media-library.cloudinary'> &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     brandName: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.Unique &
@@ -434,6 +427,12 @@ export interface ApiBrandBrand extends Struct.CollectionTypeSchema {
       }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::brand.brand'>;
+    logo: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     product: Schema.Attribute.Relation<'oneToOne', 'api::product.product'>;
     publishedAt: Schema.Attribute.DateTime;
     slug: Schema.Attribute.UID<'brandName'> &

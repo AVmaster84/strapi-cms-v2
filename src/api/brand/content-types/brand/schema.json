@@ -42,14 +42,20 @@
         }
       }
     },
-    "brandLogo": {
-      "type": "customField",
+    "logo": {
+      "type": "media",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "customField": "plugin::cloudinary-media-library.cloudinary"
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "website": {
       "type": "string",

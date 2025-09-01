@@ -71,6 +71,21 @@
       },
       "customField": "plugin::cloudinary-media-library.cloudinary"
     },
+    "productImages": {
+      "type": "media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
     "price": {
       "type": "decimal",
       "pluginOptions": {
@@ -127,21 +142,6 @@
       },
       "component": "product.attribute",
       "repeatable": true
-    },
-    "productImages": {
-      "type": "media",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "multiple": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
     }
   }
 }
