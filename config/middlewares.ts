@@ -34,6 +34,7 @@ export default [
             "'self'",
             'https://media-library.cloudinary.com',
             'https://upload-widget.cloudinary.com',
+            'market-assets.strapi.io',
             'https://console.cloudinary.com',
           ],
           upgradeInsecureRequests: null,
