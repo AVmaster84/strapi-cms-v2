@@ -15,15 +15,6 @@
     }
   },
   "attributes": {
-    "oEmbed": {
-      "type": "customField",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "customField": "plugin::oembed.oembed"
-    },
     "productName": {
       "type": "string",
       "pluginOptions": {
@@ -33,6 +24,15 @@
       },
       "required": true,
       "unique": true
+    },
+    "oEmbed": {
+      "type": "customField",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "customField": "plugin::oembed.oembed"
     },
     "slug": {
       "type": "uid",
@@ -54,14 +54,6 @@
       "required": false,
       "unique": true
     },
-    "fullDescription": {
-      "type": "blocks",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "shortDescription": {
       "type": "blocks",
       "pluginOptions": {
@@ -81,6 +73,14 @@
     },
     "price": {
       "type": "decimal",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "fullDescription": {
+      "type": "richtext",
       "pluginOptions": {
         "i18n": {
           "localized": true
