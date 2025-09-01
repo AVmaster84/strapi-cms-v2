@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_attributes",
+  "info": {
+    "displayName": "Attribute"
+  },
+  "options": {},
+  "attributes": {
+    "Key": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
