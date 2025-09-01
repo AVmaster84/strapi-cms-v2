@@ -1,14 +1,15 @@
-// import type { Core } from '@strapi/strapi';
+// import { Strapi } from '@strapi/strapi';
 
 export default {
+  register(/** { strapi }: { strapi: Strapi } )*/) {
   /**
    * An asynchronous register function that runs before
    * your application is initialized.
-   *
-   * This gives you an opportunity to extend code.
-   */
-  register(/* { strapi }: { strapi: Core.Strapi } */) {},
-
+  
+  * This gives you an opportunity to extend code.
+  */
+ },
+ 
   /**
    * An asynchronous bootstrap function that runs before
    * your application gets started.
@@ -16,5 +17,6 @@ export default {
    * This gives you an opportunity to set up your data model,
    * run jobs, or perform some special logic.
    */
-  bootstrap(/* { strapi }: { strapi: Core.Strapi } */) {},
+  bootstrap(/** { strapi }: { strapi: Strapi } )*/) {
+  },
 };

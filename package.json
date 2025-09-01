@@ -1,7 +1,7 @@
 {
   "name": "strapi-cms",
   "version": "0.1.0",
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "yarn@4.9.4",
   "private": true,
   "description": "A Strapi application",
   "scripts": {
@@ -58,5 +58,8 @@
   "strapi": {
     "uuid": "1f306deb-23f4-4bc3-8701-1e478c3dee7f",
     "installId": "b5ada5d4862b0b87c9b265ac0d03599c43d189619640230ea62f5f29fda202ee"
-  }
+  },
+  "main": "index.js",
+  "author": "AVmaster84 <hoanghiepvnc@outlook.com>",
+  "license": "MIT"
 }
