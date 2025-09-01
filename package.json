@@ -30,7 +30,7 @@
     "@strapi/data-transfer": "^5.0.0",
     "@strapi/plugin-cloud": "5.23.1",
     "@strapi/plugin-users-permissions": "5.23.1",
-    "@strapi/provider-uploatd-cloudinary": "^5.23.1",
+    "@strapi/provider-upload-cloudinary": "^5.23.1",
     "@strapi/sdk-plugin": "^5.2.7",
     "@strapi/strapi": "5.23.1",
     "better-sqlite3": "^12.2.0",
